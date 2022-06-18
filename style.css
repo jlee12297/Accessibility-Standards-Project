@@ -1,0 +1,145 @@
+/* universal selector used to make the page easy to fit without worrying about border */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*set the background color for the body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* class selector to specifically customise the contents within the header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* another class selector more specifically to target the horiseon logo in header*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*class selector to modify just the "seo" within horiseon*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*make the navigation bar tools appear on the right side spaced nicely*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*no bullet points, just the contents of the list displayed*/
+header nav ul {
+    list-style-type: none;
+}
+
+/*display the list in nav bar inline, not stacked*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* make it so the nav bar "links" dont have the purple underlined look they typically have */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* another way to have an image take up the center position that also spans the width of the page*/
+.meeting {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* the boxes for the text*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* the two below classes are used to make the chosen images float to the right or left of the box its in */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* customizing the box the paragraphs are in w/ padding, color, font */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* img height of the 3 in the blue boxes */
+main section img {
+    max-height: 200px;
+}
+
+/* headers in the blue boxes*/
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*settings for the blue box on the right side of the page*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*footer settings*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
