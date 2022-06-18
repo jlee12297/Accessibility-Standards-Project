@@ -1,2 +1,4 @@
 # Accessibility-Standards-Project
 Given unoptimized html and css code with a plethora of redundancies and "over-coding", using knowledge of html and css rules I've become more confident in throughout this course, I've been able to simplify the html code which results in having to make more simple css code as well, with less redundant code. Much of the css coding was divided unecessarily when it could put under one selector, and the html had a lot of unecessary classes inserted as well. Along with renaming the dividers in the html code to be more specific to the sectioning of the webpage, the code and site I've uploaded to the project has been cleaned up and commented for ease of use for future coders.
+![image](https://user-images.githubusercontent.com/105609656/174426149-533b653e-830d-459f-b693-78d6018e9d61.png)
+Link to deployed page: https://jlee12297.github.io/Accessibility-Standards-Project/#search-engine-optimization
